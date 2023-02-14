@@ -14,3 +14,10 @@ function login(){
         alert("Usuario y contraseña incorrectos")
     }
 }
+
+
+function cambiarUbicacion(){
+    alert("Cambiamos de ubicación!")
+}
+//Nueva forma de agregar evento Onclick a objet
+let botonUbica = document.getElementById("btnUbica").onclick = cambiarUbicacion();
